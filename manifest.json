@@ -1,0 +1,17 @@
+{
+  "name": "Calculator",
+  "description": "A Simple Calculator",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["Scripts/background.js", "Scripts/calculator.js"]
+    }
+  },
+  "icons": { "16": "Images/calculator-16.png", "128": "Images/calculator-128.png" },
+  "sandbox": {
+     "pages": [
+        "calculator.html"
+     ]
+  }
+}
